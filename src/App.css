@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0;
+}
+.App{
+    background:#e4e4e4;
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+  
+
+}

@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.container{
+    
+    width: 100%;
+    background-color: #0B1D26;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero{
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 300;
+    background:linear-gradient(rgba(0,0,0,0), rgba(11,28,37,1)),url(./img/mobile_hero.jpg);
+    width:100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero__img{
+    width:100%;
+    text-align: center;
+}
+.hero__img img{
+    width:10%;
+    border-radius: 25px;
+    height: auto;   
+}
+.hero__txt{
+text-align: center;
+padding: 20px;
+font-size: 45px;
+color:white;
+font-weight: 700;
+}
+.hero__txt p:first-child{
+color:#FBD784;
+}
+.content{
+    width:75%;
+}
+.mobile__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#FBD784;
+    font-size: 44px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section1{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:white;
+}
+.section1__textblock{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.section1__line{
+    width:40px;
+    height: 2px;
+    background-color:#FBD784;
+}
+.section1__title{
+    font-size:64px;
+}
+.section1__text{
+    font-size:18px;
+    width: 80%;
+    font-weight: 300;
+}
+.section1__text p {
+    padding-bottom: 10px;
+}
+.section1__img{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.section1__img img{
+    width:100%;
+}
+
+.section__left,.section__left__two{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:white;
+    margin-bottom: 100px;
+}
+.section__left__textblock{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.section__left__text{
+    text-align: right;
+    font-size:18px;
+    width: 80%;
+    font-weight: 300;
+}
+.section__left__text p {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.section__left__text h3 {
+    padding-bottom: 10px;
+    color:#FBD784;
+    font-size: 30px;
+}
+.section__left__img{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.section__left__img img{
+    width:100%;
+}
+.section__left__text__item{
+    padding-bottom: 50px;
+}
+.section__left__text__item ul{
+    list-style:none;
+    font-size: 20px;
+    direction: rtl;
+    }
+    .section__left__text__item ul li::before{
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color:#FBD784; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-right: -1em; /* Also needed for space (tweak if needed) */
+    }
+.section__right,.section__right__two{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:white;
+    margin-bottom: 100px;
+}
+.section__right__textblock{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.section__right__text{
+    text-align: left;
+    font-size:18px;
+    width: 80%;
+    font-weight: 300;
+}
+.section__right__text p {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.section__right__text h3 {
+    padding-bottom: 10px;
+    color:#FBD784;
+    font-size: 30px;
+}
+.section__right__img{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.section__right__img img{
+    width:100%;
+}
+.section__right__text__item{
+    padding-bottom: 50px;
+}
+.section__right__text__item ul{
+list-style:none;
+font-size: 20px;
+}
+.section__right__text__item ul li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:#FBD784; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding:60px;
+}
+.section3__block{
+    border:2px solid #FBD784;
+    flex:0.31;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding:35px;
+   
+}
+.section3__blockTitle{
+    text-align: center;
+    font-size:34px;
+    height: 130px;
+    padding-bottom: 20px;
+}
+.section3__blockText{
+    text-align: left;
+    font-size:16px;
+    font-weight: 300;
+}
+@media (max-width:1024px){
+    .content{
+        width: 90%;
+    }
+    .section1,.section__left,.section__right.section__left__two,.section__right__two{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section__left__img,.section__right__img  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .section1__textblock,.section1__img{
+        width: 100%;
+    }
+    .section__left__textblock,.section__right__textblock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:50px;
+    }
+}

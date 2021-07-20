@@ -1,0 +1,26 @@
+.Navigation{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+.Nav__logo{
+    width:50px;
+    height: auto;
+    padding: 60px;
+}
+.Nav__logo img{
+    width:50px;
+    height: auto;
+    border-radius: 15%;
+}
+.Nav__items{
+    padding: 60px;
+}
+.Nav__items ul{
+    list-style: none;
+}
+.Nav__items li{
+ color:white;
+}
